@@ -82,7 +82,7 @@ foreach ($row in $users) {
         Write-Log "SUCCESS: $($u.SamAccountName) password reset; cannot change password; no force at next logon."
     }
     catch {
-        Write-Log "ERROR: $identity — $($_.Exception.Message)"
+        Write-Log "ERROR: $identity â€” $($_.Exception.Message)"
         continue
     }
 }
