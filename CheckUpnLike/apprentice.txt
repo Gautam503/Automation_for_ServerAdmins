@@ -1,0 +1,11 @@
+
+# Search for users with email ending in @apprentice.powergrid.in
+$users = Get-ADUser -Filter { EmailAddress -like "*@apprentice.powergrid.in" } -Properties EmailAddress, whenCreated
+
+# Prepare report
+$report = $users | Select-Object Name, SamAccountName , EmailAddress , whenCreated
+
+# Export to CSV
+$report | Export-Csv "C:\Users\gautamjha\Desktop\ApprenticeUsersReport.csv" -NoTypeInformation -Encoding UTF8
+
+Write-Host "Report generated successfully."

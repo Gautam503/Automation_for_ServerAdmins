@@ -1,0 +1,5 @@
+Full Name,EmployeeID,Grade,Mobile,Email Preference 1,Email Preference 2,FirstName,LastName,FinalEmail,UserName,Password,OU
+ANURAG KAPARIYA,60075259,ST,7860378162,anuragkapariya22@powergrid.in,,ANURAG,KAPARIYA,anuragkapariya22@powergrid.in,anuragkapariya22,Welcome@123,"OU=HRD,OU=CC,DC=powergrid,DC=in"
+HARSHIT CHAURASIYA,60075261,ST,9151220437,harshitchaurasiya@powergrid.in,,HARSHIT,CHAURASIYA,harshitchaurasiya@powergrid.in,harshitchaurasiya,Welcome@123,"OU=HRD,OU=CC,DC=powergrid,DC=in"
+RANJAN KUMAR.,60041967,SDT,7739715955,Ranjan2001@powergrid.in,,RANJAN,KUMAR.,Ranjan2001@powergrid.in,Ranjan2001,Welcome@123,"OU=HRD,OU=CC,DC=powergrid,DC=in"
+MOHIT KUMAR MAHLI,60041966,SDT,7367957659,kumarmohit98@powergrid.in,,MOHIT KUMAR,MAHLI,kumarmohit98@powergrid.in,kumarmohit98,Welcome@123,"OU=HRD,OU=CC,DC=powergrid,DC=in"
