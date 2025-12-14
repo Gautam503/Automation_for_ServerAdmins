@@ -2,7 +2,7 @@
 $ADUsers = Import-Csv "C:\Users\gautamjha\Desktop\NewUsersFinal1Dec.csv"
 
 # Define UPN
-$UPN = "powergrid.in"
+$UPN = "yourcompany.in"
 
 # Loop through each row containing user details in the CSV file
 foreach ($User in $ADUsers) {

@@ -1,6 +1,6 @@
 
 # Search for users with email ending in @apprentice.powergrid.in
-$users = Get-ADUser -Filter { EmailAddress -like "*@apprentice.powergrid.in" } -Properties EmailAddress, whenCreated
+$users = Get-ADUser -Filter { EmailAddress -like "*@apprentice.abc.in" } -Properties EmailAddress, whenCreated
 
 # Prepare report
 $report = $users | Select-Object Name, SamAccountName , EmailAddress , whenCreated

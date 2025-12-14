@@ -1,3 +1,3 @@
-Get-ADComputer -SearchBase "OU=sr2-computers,OU=sr2,DC=powergrid,DC=lan" -Filter * -Properties Name, LastLogonDate |
+Get-ADComputer -SearchBase "OU=sr2-computers,OU=sr2,DC=abc,DC=lan" -Filter * -Properties Name, LastLogonDate |
 Select-Object Name, LastLogonDate |
 Export-Csv "C:\Users\gautamjha\Desktop\er2_computers_list.csv" -NoTypeInformation
